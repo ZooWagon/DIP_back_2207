@@ -88,7 +88,7 @@ public class GeneralControler {
     public Object DownloadPicPyZip(HttpServletResponse response){
         OutputStream os = null;
         InputStream is= null;
-        String fileName="use.zip";
+        String fileName="dip_py_2207.zip";
         try {
             // 取得输出流
             os = response.getOutputStream();
